@@ -1,22 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import CountdownTimer from './CountDownTimer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1 className="text-5xl font-bold text-yellow-400 mb-8">Rubber Duck Gala Countdown</h1>
+        <CountdownTimer />
       </header>
     </div>
   );
