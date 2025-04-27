@@ -1,12 +1,13 @@
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { FaHome } from 'react-icons/fa';
 
 const NavBar = () => {
   return (
     <div>
-        <nav className="bg-blue-500 p-4 flex items-center justify-between">
+        <nav className="bg-gray-800 p-4 flex items-center justify-between">
           <div className="flex items-center">
             <Link to="https://millikensac.com" className="flex items-center">
-              <img src="/images/logo.webp" alt="Logo" className="h-10 mr-3" />
+                <FaHome className="h-8 w-8 text-white mr-3" />
             </Link>
           </div>
 

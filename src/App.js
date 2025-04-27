@@ -13,12 +13,9 @@ function App() {
         <h1 className="text-5xl font-bold text-yellow-400 mb-8">Rubber Duck Gala Countdown</h1>
         <CountdownTimer />
         </header>
-        <div className = "pt-20">
-          <Routes>
-            <Route path="/ticketpage" element={<TicketPage />} />
-            <Route path="/" element={<App />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/ticketpage" element={<TicketPage />} />
+        </Routes>
       </div>
     </Router>
     
