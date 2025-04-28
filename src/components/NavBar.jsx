@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaHome } from 'react-icons/fa';
 
 const NavBar = () => {
@@ -6,21 +6,21 @@ const NavBar = () => {
     <div>
         <nav className="bg-gray-800 p-4 flex items-center justify-between">
           <div className="flex items-center">
-            <Link to="https://millikensac.com" className="flex items-center">
+            <NavLink to="https://millikensac.com" className="flex items-center">
                 <FaHome className="h-8 w-8 text-white mr-3" />
-            </Link>
+            </NavLink>
           </div>
 
           {/* Links */}
           <ul className="flex space-x-6 text-white text-lg">
             <li>
-              <Link to="https://millikensac.com" className="hover:underline">Home</Link>
+              <NavLink to="https://millikensac.com" className="hover:underline">Home</NavLink>
             </li>
             <li>
-              <Link to="/" className="hover:underline">Rubber Duck Gala</Link>
+              <NavLink to="/" className={({ isActive }) => isActive ? "underline text-yellow-400" : "hover:underline"}>Rubber Duck Gala</NavLink>
             </li>
             <li>
-              <Link to="/ticketpage" className="hover:underline">Tickets</Link>
+              <NavLink to="/ticketpage" className={({ isActive }) => isActive ? "underline text-yellow-400" : "hover:underline"}>Tickets</NavLink>
             </li>
           </ul>
         </nav>
