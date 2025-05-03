@@ -9,19 +9,19 @@ const CountdownTimer = () => {
             <div className="flex gap-6 text-center">
               <div>
                 <div className="text-6xl font-bold text-yellow-400">{days+2}</div>
-                <div className="text-lg text-white">days</div>
+                <div className="text-lg text-black">days</div>
               </div>
               <div>
                 <div className="text-6xl font-bold text-yellow-400">{hours}</div>
-                <div className="text-lg text-white">hours</div>
+                <div className="text-lg text-black">hours</div>
               </div>
               <div>
                 <div className="text-6xl font-bold text-yellow-400">{minutes}</div>
-                <div className="text-lg text-white">minutes</div>
+                <div className="text-lg text-black">minutes</div>
               </div>
               <div>
                 <div className="text-6xl font-bold text-yellow-400">{seconds}</div>
-                <div className="text-lg text-white">seconds</div>
+                <div className="text-lg text-black">seconds</div>
               </div>
             </div>
           )

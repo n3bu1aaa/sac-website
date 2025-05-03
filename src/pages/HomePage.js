@@ -8,7 +8,7 @@ function HomePage() {
     return (
         <header className="App-header">
             <IntroSection />
-            <h1 className="text-5xl font-bold text-yellow-400 mb-8">Rubber Duck Gala Countdown</h1>
+            <h1 className="text-5xl font-bold text-blue-800 mb-8">Rubber Duck Gala Countdown</h1>
             <CountdownTimer />
             <button
               onClick={() => navigate("/ticketpage")}

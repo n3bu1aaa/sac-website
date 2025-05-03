@@ -1,14 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa';
+import logo from '../../src/assets/images/logo.png';
 
 const NavBar = () => {
   const location = useLocation();
   return (
     <div>
-        <nav style = {{ backgroundColor: '#ebecee' }} className="p-4 flex items-center justify-between">
+        <nav style = {{ backgroundColor: '#ebecee' }} className="p-4 h-16 flex items-center justify-between">
           <div className="flex items-center">
-            <Link to="https://millikensac.com" className="flex items-center">
-                <FaHome className="h-8 w-8 text-blue mr-3" />
+            <Link to="https://millikensac.com" className="h-full flex items-center">
+                <img src={logo} alt = "Logo" className='max-h-full object-contain'/>
             </Link>
           </div>
 
