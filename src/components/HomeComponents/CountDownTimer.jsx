@@ -8,19 +8,19 @@ const CountdownTimer = () => {
           return (
             <div className="flex gap-6 text-center">
               <div>
-                <div className="text-6xl font-bold text-yellow-400">{days+2}</div>
+                <div className="text-6xl font-bold text-yellow-500">{days+2}</div>
                 <div className="text-lg text-black">days</div>
               </div>
               <div>
-                <div className="text-6xl font-bold text-yellow-400">{hours}</div>
+                <div className="text-6xl font-bold text-yellow-500">{hours}</div>
                 <div className="text-lg text-black">hours</div>
               </div>
               <div>
-                <div className="text-6xl font-bold text-yellow-400">{minutes}</div>
+                <div className="text-6xl font-bold text-yellow-500">{minutes}</div>
                 <div className="text-lg text-black">minutes</div>
               </div>
               <div>
-                <div className="text-6xl font-bold text-yellow-400">{seconds}</div>
+                <div className="text-6xl font-bold text-yellow-500">{seconds}</div>
                 <div className="text-lg text-black">seconds</div>
               </div>
             </div>

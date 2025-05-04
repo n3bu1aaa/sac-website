@@ -4,7 +4,7 @@ const IntroSection = () => {
   return (
     <section 
     style = {{ backgroundImage: `url(${bgImage})` }} 
-    className="App-header relative w-full min-h-screen flex flex-col justify-center items-center bg-gray-900 bg-cover bg-center text-white px-4 text-center">
+    className="App-header relative w-full min-h-screen flex flex-col justify-center items-center mb-16 bg-gray-900 bg-cover bg-center text-white px-4 text-center">
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
       <div className="w-full max-w-4xl p-8 bg-gray-800 rounded-lg shadow-lg bg-opacity-20">
         <h1 className="text-5xl font-extrabold text-black mb-4">
