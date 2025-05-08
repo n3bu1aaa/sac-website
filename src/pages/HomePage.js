@@ -1,6 +1,7 @@
 import CountdownTimer from '../components/HomeComponents/CountDownTimer';
 import { useNavigate } from "react-router-dom";
 import IntroSection from '../components/HomeComponents/IntroSection';
+import GradientText from '../components/Animations/GradientText';
 
 function HomePage() {
     const navigate = useNavigate();
@@ -9,7 +10,14 @@ function HomePage() {
         <header className="App-header">
             <IntroSection />
             <div className="w-full max-w-3xl p-8 bg-gray-300 rounded-lg shadow-lg bg-opacity-20 mb-8 hover:scale-105 transition-transform duration-300">
-              <h1 className="text-5xl font-bold text-black mb-8">The Rubber Duck Gala Starts In</h1>
+              <GradientText
+                colors={["#26cc88", "#2f5ccc", "#26cc88", "#2f5ccc", "#26cc88"]}
+                animationSpeed={3}
+                showBorder={false}
+                className="text-5xl font-extrabold text-black mb-8"
+              >
+                The Rubber Duck Gala Starts In
+              </GradientText>
               <div className="flex justify-center">
                 <CountdownTimer />
               </div>

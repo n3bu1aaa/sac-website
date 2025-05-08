@@ -1,5 +1,6 @@
 import bgImage from '../../assets/images/bg_image.jpg'
 import BlurText from '../Animations/BlurText'
+import GradientText from '../Animations/GradientText'
 
 const IntroSection = () => {
   return (
@@ -16,9 +17,14 @@ const IntroSection = () => {
           className='text-center'
         />
         </h1>
-        <p className="text-xl text-black mb-6">
+        <GradientText
+          colors={["#26cc88", "#2f5ccc", "#26cc88", "#2f5ccc", "#26cc88"]}
+          animationSpeed={3}
+          showBorder={false}
+          className="text-xl text-black mb-6"
+        >
           Join us for a fun night of food, drinks and dancing!
-        </p>
+        </GradientText>
         <div className="text-lg text-black mb-8 space-y-2">
           <p>📅 November 32, 2025 | 🕰️ 5pm–10pm</p>
           <p>📍 Emily's Mansion Banquet Hall</p>
