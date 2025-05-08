@@ -13,7 +13,7 @@ function TicketPage() {
                 <Table />
                 <button
                     onClick={() => navigate("/ticketpage")}
-                    className="w-auto bg-gradient-to-r font-bold from-yellow-400 to-yellow-500 text-black py-3 px-8 rounded-full shadow-md hover:from-yellow-500 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 mt-12 mb-12"
+                    className="w-auto bg-gradient-to-r font-bold from-amber-700 to-orange-600 text-white py-3 px-8 rounded-full shadow-md hover:from-orange-600 hover:to-amber-700 transform hover:scale-105 transition-all duration-300 mt-12 mb-12"
                 >
                     Purchase Tickets
                 </button>
