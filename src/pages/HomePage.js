@@ -9,7 +9,7 @@ function HomePage() {
         <header className="App-header">
             <IntroSection />
             <div className="w-full max-w-3xl p-8 bg-gray-300 rounded-lg shadow-lg bg-opacity-20 mb-8 hover:scale-105 transition-transform duration-300">
-              <h1 className="text-5xl font-bold text-black mb-8">Rubber Duck Gala Countdown</h1>
+              <h1 className="text-5xl font-bold text-black mb-8">The Rubber Duck Gala Starts In</h1>
               <div className="flex justify-center">
                 <CountdownTimer />
               </div>

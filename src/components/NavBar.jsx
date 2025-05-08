@@ -5,7 +5,7 @@ const NavBar = () => {
   const location = useLocation();
   return (
     <div>
-        <nav style = {{ backgroundColor: '#ebecee' }} className="p-4 h-16 flex items-center justify-between">
+        <nav style = {{ backgroundColor: 'rgb(255, 255, 255)' }} className="p-4 h-16 flex items-center justify-between">
           <div className="flex items-center">
             <Link to="https://millikensac.com" className="h-full flex items-center">
                 <img src={logo} alt = "Logo" className='max-h-full object-contain'/>
