@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sac-website/static/css/main.c9e58535.css",
-    "main.js": "/sac-website/static/js/main.5efc1d3a.js",
+    "main.js": "/sac-website/static/js/main.bc2b7625.js",
     "static/js/453.ff489f1b.chunk.js": "/sac-website/static/js/453.ff489f1b.chunk.js",
     "static/media/bg_image.jpg": "/sac-website/static/media/bg_image.548df2c8b4023d71326f.jpg",
     "static/media/bg_image2.jpg": "/sac-website/static/media/bg_image2.822ab89f28e556b2bb09.jpg",
     "index.html": "/sac-website/index.html",
     "main.c9e58535.css.map": "/sac-website/static/css/main.c9e58535.css.map",
-    "main.5efc1d3a.js.map": "/sac-website/static/js/main.5efc1d3a.js.map",
+    "main.bc2b7625.js.map": "/sac-website/static/js/main.bc2b7625.js.map",
     "453.ff489f1b.chunk.js.map": "/sac-website/static/js/453.ff489f1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9e58535.css",
-    "static/js/main.5efc1d3a.js"
+    "static/js/main.bc2b7625.js"
   ]
 }
