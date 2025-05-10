@@ -30,7 +30,7 @@ const IntroSection = () => {
         <div className="text-lg text-black mb-8 space-y-2">
           <p>
             <DecryptedText
-              text="📅 November 32, 2025 | 🕰️ 5pm–10pm"
+              text="November 32, 2025 | 5pm–10pm"
               animateOn="view"
               revealDirection="start"
               speed={50}
@@ -39,7 +39,7 @@ const IntroSection = () => {
           </p>
           <p>
             <DecryptedText
-              text="📍 Emily's Mansion Banquet Hall"
+              text="Emily's Mansion Banquet Hall"
               animateOn="view"
               revealDirection="start"
               speed={50}

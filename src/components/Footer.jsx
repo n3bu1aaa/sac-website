@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center'>
                 <h2 className="text-blue-900 font-semibold text-2xl">
-                    Made by Ethan Zhou
+                    Made by ???
                 </h2>
             </div>
         </footer>
